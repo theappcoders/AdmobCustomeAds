@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AdTheme" >
+        <item name="android:background">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+    </style>
+    <style name="Theme.AdAttribution">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">#ffcc66</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">AD</item>
+        <item name="android:height">18dp</item>
+        <item name="android:width">18dp</item>
+    </style>
+    <style name="myDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

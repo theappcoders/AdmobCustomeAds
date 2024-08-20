@@ -1,0 +1,10 @@
+jdk:
+  - openjdk17
+
+build:
+  scripts:
+    - ./gradlew clean build
+
+publish:
+  artifacts:
+    - build/libs/*.jar
