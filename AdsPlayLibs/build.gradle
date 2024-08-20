@@ -71,7 +71,6 @@ dependencies {
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.8.3"
     implementation "androidx.lifecycle:lifecycle-common-java8:2.8.3"
 }
-
 publishing {
     publications {
         mavenJava(MavenPublication) {
@@ -80,7 +79,7 @@ publishing {
             }
             groupId = 'com.theappcoderz'
             artifactId = 'AdsPlayLibs'
-            version = '1.0.5'
+            version = '1.0.0'
         }
     }
     repositories {
