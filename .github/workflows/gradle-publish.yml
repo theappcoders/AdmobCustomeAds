@@ -41,4 +41,4 @@ jobs:
       run: ./gradlew publish
       env:
         USERNAME: ${{ github.actor }}
-        TOKEN: ${{ secrets.TOKEN }}
+        TOKEN: ${{ secrets.JAVA_TOKEN }}
